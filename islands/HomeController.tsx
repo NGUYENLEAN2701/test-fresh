@@ -45,8 +45,7 @@ export default function HomeController() {
                     </a>
                 </h1>
                 <p style={{
-                    color: "#64748b", 
-                    marginBottom: "40px", 
+                    color: "#64748b",
                     textAlign: "center", 
                     display: "flex",
                     flexWrap: "wrap",
@@ -56,6 +55,19 @@ export default function HomeController() {
                     <span style={{ whiteSpace: "nowrap" }}>Một dự án Fresh + Deno</span>
                     <span style={{ whiteSpace: "nowrap" }}>đang chạy trên Deno Deploy.</span>
                 </p>
+                <p style={{
+                    color: "#64748b", 
+                    textAlign: "center", 
+                    display: "flex",
+                    flexWrap: "wrap",
+                    justifyContent: "center",
+                    gap: "0 8px",
+                    marginBottom: "40px",
+                }}>
+                    <span style={{ whiteSpace: "nowrap" }}>Tôi là Green Wolf,</span>
+                    <span style={{ whiteSpace: "nowrap" }}>tôi đã thay đổi toàn bộ.</span>
+                </p>
+                
 
                 <button
                     onClick={() => { showGame.value = true; }}
