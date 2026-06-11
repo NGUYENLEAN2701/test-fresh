@@ -73,7 +73,7 @@ export default function HomeController() {
                     onClick={() => { showGame.value = true; }}
                     style={{
                         padding: "14px 40px",
-                        fontSize: "18px",
+                        fontSize: "40px",
                         fontWeight: 700,
                         background: "linear-gradient(135deg, #4ade80, #22c55e)",
                         color: "#0f172a",
